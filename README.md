@@ -6,6 +6,28 @@ This guide walks you through building, containerizing, and deploying a React app
 
 ---
 
+## 📁 Project Rqquirments
+
+Deploy Docker App on ECS Fargate with CI/CD
+Background: ECS Fargate offers serverless container deployment without needing to
+manage EC2 infrastructure.
+Objective: Build and deploy a containerized app on ECS Fargate via CodePipeline.
+Tools & Services:
+• Docker, Amazon ECR, ECS Fargate, ALB, CodePipeline
+Implementation Steps:
+1. Dockerize app and push to ECR.
+2. Create ECS Cluster and Task Definition.
+3. Set up ALB with target groups.
+4. Deploy via CodePipeline.
+5. Enable auto-scaling and health checks.
+Hints:
+• Ensure IAM roles allow ECR pull.
+• Set up environment variables through Task Definition.
+Expected Outcome:
+• Containerized service running and exposed via ALB.
+
+---
+
 ## 📁 Project Structure
 
 ```plaintext
@@ -283,6 +305,10 @@ If anything goes wrong:
 - Check ECS service section for task health status
 
 ---
+## 🌐 Live App Screenshot
+
+![React App Output](images/screenshot.png)
+
 
 If you're stuck at any step, feel free to reach out or review the AWS documentation. I’m here to help you troubleshoot and get your app running smoothly.
 

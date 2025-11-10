@@ -309,7 +309,7 @@ If anything goes wrong:
 
 ## 🌐 Live App Screenshot
 
-![React App Output](images/screenshot.png)
+![React App Output](images/screenshot (13).png)
 
 
 If you're stuck at any step, feel free to reach out or review the AWS documentation. I’m here to help you troubleshoot and get your app running smoothly.

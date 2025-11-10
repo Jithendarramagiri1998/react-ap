@@ -7,6 +7,7 @@ This repository demonstrates how to **build, containerize, and deploy an applica
 ```plaintext
 my-react-app/
 ├── Dockerfile
+├── buildspec.yml
 ├── package.json
 ├── public/
 │   └── index.html

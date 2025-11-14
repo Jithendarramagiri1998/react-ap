@@ -28,7 +28,11 @@ Expected Outcome:
 - Containerized service running and exposed via ALB.
 
 ---
+##  Architecture_Digram
 
+![Architecture](images/architecture-digram.png)
+
+---
 ## 📁 Project Structure
 
 ```plaintext
